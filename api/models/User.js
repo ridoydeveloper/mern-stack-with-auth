@@ -21,7 +21,7 @@ const userSchema = mongoose.Schema({
         type : String,
         required : true,
         trim : true,
-        unique : true
+     
     },
     username : {
         type : String,
@@ -31,7 +31,6 @@ const userSchema = mongoose.Schema({
     },
     age : {
         type : Number,
-        required : true,
        
     },
     gender : {
